@@ -56,11 +56,7 @@
       color: white;
     }
 
-    /* ---- LINK STYLING FIX ----
-       Use a specific class (.blue-link) and max specificity
-       with !important so it overrides inherited white.
-       Also define visited/hover states.
-    */
+    /* Link styling */
     .blue-link,
     .blue-link:link,
     .blue-link:visited {
@@ -73,13 +69,6 @@
       color: var(--blueish-hover) !important;
       text-decoration: underline !important;
     }
-
-    /* Optional: make all regular anchors blue too (comment out if you don't want global change)
-    a, a:link, a:visited {
-      color: var(--blueish);
-    }
-    a:hover { color: var(--blueish-hover); }
-    */
   </style>
 </head>
 <body>
@@ -94,18 +83,27 @@
     <p>
       After high school, I want to <span class="highlight">study business</span>, especially
       <span class="highlight">finance</span>. I enjoy making decisions based on <span class="highlight">data</span>
-      and understanding how <span class="highlight">globalization</span> affects markets. My goal is to use
-      <span class="highlight">opportunity cost</span> thinking to make smart financial choices and help companies grow.
+      and understanding how <span class="highlight">globalization</span> (how countries connect through trade)
+      affects markets. My goal is to use <span class="highlight">opportunity cost</span> (weighing what you give up vs. what you gain)
+      thinking to make smart financial choices and help companies grow.
     </p>
   </section>
 
   <section>
     <h2>Unit 1: Foundations of Business</h2>
     <p>
-      In Unit 1, I learned about <span class="highlight">scarcity</span>, <span class="highlight">trade-offs</span>,
-      and how <span class="highlight">entrepreneurs</span> use <span class="highlight">factors of production</span>
-      to create goods and services. Understanding <span class="highlight">market economies</span> and
-      <span class="highlight">opportunity cost</span> helps explain how choices are made in the real world.
+      In Unit 1, I learned about <span class="highlight" title="When unlimited wants meet limited resources">scarcity</span>,
+      <span class="highlight" title="Making decisions when you must give something up">trade-offs</span>,
+      and how <span class="highlight" title="People who start businesses and take risks">entrepreneurs</span>
+      use <span class="highlight" title="Land, labor, capital, and entrepreneurship">factors of production</span>
+      to create goods and services. Understanding <span class="highlight" title="An economy where decisions are based on supply, demand, and price">market economies</span>
+      and <span class="highlight" title="What you give up when choosing one option over another">opportunity cost</span>
+      helps explain how choices are made in the real world.
+    </p>
+    <p>
+      Learn more about these ideas in
+      <a class="blue-link" href="https://www.investopedia.com/terms/o/opportunitycost.asp" target="_blank" rel="noopener noreferrer">
+        this article on opportunity cost</a>.
     </p>
     <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&q=80&w=1600&fit=crop" alt="Business teamwork photo">
   </section>
@@ -113,10 +111,16 @@
   <section>
     <h2>Unit 2: Economics & Global Connections</h2>
     <p>
-      In Unit 2, I learned how <span class="highlight">supply and demand</span> interact, what
-      <span class="highlight">equilibrium price</span> means, and how <span class="highlight">globalization</span>
-      connects countries through <span class="highlight">trade</span>. I also studied the role of
-      <span class="highlight">competition</span> and <span class="highlight">incentives</span> in shaping markets.
+      In Unit 2, I learned how <span class="highlight" title="How much of something people want or are willing to sell">supply and demand</span> interact,
+      what <span class="highlight" title="Where supply equals demand and prices are stable">equilibrium price</span> means,
+      and how <span class="highlight" title="Connecting countries through trade and culture">globalization</span>
+      links countries together. I also studied the role of
+      <span class="highlight" title="The rivalry between sellers that keeps prices fair">competition</span>
+      and <span class="highlight" title="Reasons that motivate people to act">incentives</span> in shaping markets.
+    </p>
+    <p>
+      Check out <a class="blue-link" href="https://www.khanacademy.org/economics-finance-domain/microeconomics/supply-demand-equilibrium" target="_blank" rel="noopener noreferrer">
+        this Khan Academy page on supply & demand</a> for more examples.
     </p>
     <img src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&q=80&w=1600&fit=crop" alt="Global business connections">
   </section>
@@ -135,23 +139,22 @@
          target="_blank" rel="noopener noreferrer">
       “5G and Beyond: How 6G Networks Will Shape the Future of Connectivity”</a>
       explains how new network technologies like 5G — and the future 6G — are making the internet faster, 
-    more reliable, and able to connect way more devices at the same time. This means less lag when streaming 
-    or gaming, better quality for video calls, and more people in remote areas getting access to the internet. 
-    These upgrades will make everyday online activities feel smoother and open the door for new innovations 
-    in business, education, and entertainment.
-  </p>
+      more reliable, and able to connect way more devices at the same time. This means less lag when streaming 
+      or gaming, better quality for video calls, and more people in remote areas getting access to the internet. 
+      These upgrades will make everyday online activities feel smoother and open the door for new innovations 
+      in business, education, and entertainment.
+    </p>
 
-  <div style="text-align:center; margin-top:1rem;">
-    <img src="https://media.licdn.com/dms/image/v2/D5612AQH48mFB-7AkJA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1702567765462?e=2147483647&v=beta&t=nPMosV85b3SQb_WuW2SQKJXQkg9QsqGzCdS-p_b6BMc"
-         alt="5G / network image"
-         style="border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.08); max-width:80%; display:inline-block;">
-  </div>
-</section>
+    <div style="text-align:center; margin-top:1rem;">
+      <img src="https://media.licdn.com/dms/image/v2/D5612AQH48mFB-7AkJA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1702567765462?e=2147483647&v=beta&t=nPMosV85b3SQb_WuW2SQKJXQkg9QsqGzCdS-p_b6BMc"
+          alt="5G / network image"
+          style="border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.08); max-width:80%; display:inline-block;">
+    </div>
+  </section>
 
   <footer>
     <p>
       Connect with me on
-      <!-- inline fallback color to absolutely ensure visibility if CSS gets overridden -->
       <a class="blue-link" href="https://github.com/" target="_blank" rel="noopener noreferrer" style="color:#1e6bb8 !important;">
         GitHub
       </a>
