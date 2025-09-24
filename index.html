@@ -1,165 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Daniel Spivak</title>
-  <style>
-    :root{
-      --tan:#fdf6e3;
-      --orangy:#f4a261;
-      --light-green:#2a9d8f;
-      --blueish:#1e6bb8;
-      --blueish-hover:#145a96;
-    }
-
-    body{
-      font-family: Arial, Helvetica, sans-serif;
-      background: var(--tan);
-      color: #333;
-      margin: 0;
-      line-height: 1.6;
-    }
-    header{
-      background: var(--orangy);
-      color: white;
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-    h1{ margin: 0; font-size: 2.5rem; }
-    section{
-      padding: 2rem;
-      max-width: 900px;
-      margin: 0 auto;
-    }
-    .highlight { color: var(--light-green); font-weight: 700; }
-
-    img{
-      max-width: 100%;
-      border-radius: 10px;
-      margin: 1rem 0;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-    }
-    iframe{
-      width: 100%;
-      height: 400px;
-      border: 0;
-      border-radius: 10px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-    }
-
-    footer{
-      text-align: center;
-      padding: 1rem;
-      background: var(--light-green);
-      color: white;
-    }
-
-    .blue-link,
-    .blue-link:link,
-    .blue-link:visited {
-      color: var(--blueish) !important;
-      text-decoration: none !important;
-      font-weight: 700;
-    }
-    .blue-link:hover,
-    .blue-link:focus {
-      color: var(--blueish-hover) !important;
-      text-decoration: underline !important;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Spivak - Future in Business & Finance</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f5eb;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #e07a5f;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 2rem;
+        }
+        section {
+            margin: 2rem auto;
+            padding: 1rem;
+            max-width: 800px;
+            background-color: #f4f1de;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #81b29a;
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            margin: 1rem auto;
+            border-radius: 10px;
+        }
+        a {
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        Daniel Spivak
+    </header>
 
-  <header>
-    <h1>Daniel Spivak</h1>
-    <p>Future Business & Finance Leader</p>
-  </header>
+    <section>
+        <h2>My Plans After High School</h2>
+        <p>
+            After high school, I want to study business, especially finance, because I enjoy working with numbers and understanding how money flows in the economy.
+            I am excited to learn about investing, budgeting, and how businesses grow.
+        </p>
+    </section>
 
-  <section>
-    <h2>My Plans After High School</h2>
-    <p>
-      After high school, I want to <span class="highlight">study business</span>, especially
-      <span class="highlight">finance</span>. I enjoy using <span class="highlight">data</span> to make decisions 
-      and learning how technology and <span class="highlight">globalization</span> affect the world of business.
-    </p>
-  </section>
+    <section>
+        <h2>Unit 1: Data and Information</h2>
+        <p>
+            In Unit 1, we learned about how computers store and use information. A <b>bit</b> is the smallest piece of data, either a 0 or 1, and a <b>byte</b> is made of 8 bits.
+            Sometimes computers have <b>roundoff</b> errors when they can't store a number exactly because there aren't enough bits.
+            We also talked about <b>analog data</b>, which is data that changes smoothly like music or temperature, and how computers turn it into digital data.
+            We studied <b>lossless</b> compression, which keeps all the original data when compressing, and <b>lossy</b> compression, which throws away some data to make files smaller.
+            Finally, we learned about <b>metadata</b>, which is data about data, like the author or date of a file.
+        </p>
+        <img src="https://www.101computing.net/wp/wp-content/uploads/binary.png" alt="Binary numbers image">
+    </section>
 
-  <section>
-    <h2>Unit 1: Data & Representation</h2>
-    <p>
-      In Unit 1, I learned that a <span class="highlight" title="A binary digit, either 0 or 1.">bit</span> is the 
-      smallest piece of data, and a <span class="highlight" title="A group of 8 bits.">byte</span> is 8 bits put together.
-      <span class="highlight" title="Error caused when a computer doesn't have enough bits to store a number precisely.">Roundoff</span> can cause small errors when numbers are stored with limited bits.
-      <span class="highlight" title="Data that changes smoothly, like sound or temperature.">Analog data</span> must be 
-      converted to digital so computers can process it. I also learned about 
-      <span class="highlight" title="Compression that keeps every bit of the original data, allowing perfect recovery.">lossless</span> 
-      and <span class="highlight" title="Compression that removes some data and cannot fully restore the original.">lossy</span> 
-      compression, and how <span class="highlight" title="Data about data, like file size or author.">metadata</span> gives us 
-      useful details about files.
-    </p>
-    <p>
-      Learn more about <a class="blue-link" href="https://www.khanacademy.org/computing/ap-computer-science-principles/data-analysis" target="_blank" rel="noopener noreferrer">
-      data and representation here</a>.
-    </p>
-    <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&q=80&w=1600&fit=crop" alt="Team working with data charts">
-  </section>
+    <section>
+        <h2>Unit 2: The Internet</h2>
+        <p>
+            Unit 2 focused on how computers talk to each other using networks. A <b>computing device</b> is any machine that can run programs, like phones or laptops.
+            A <b>computer network</b> is a group of these devices connected together. Data travels along a <b>path</b>, which is the route it takes to get from one device to another.
+            Devices follow a <b>protocol</b>, which is just an agreed set of rules so they can communicate. The internet is <b>fault tolerant</b>, meaning it keeps working even if some parts break.
+            It also has <b>scalability</b>, which means it can grow to handle more users and devices.
+            <b>Bandwidth</b> is how much data can be sent per second, and a <b>URL</b> is an easy-to-remember address for a website.
+        </p>
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*0h1lhh4j8kPZbYF0XbzFHQ.png" alt="Internet network image">
+    </section>
 
-  <section>
-    <h2>Unit 2: Networks & Communication</h2>
-    <p>
-      In Unit 2, I learned that a <span class="highlight" title="Any physical device that can run a program.">computing device</span> 
-      like a laptop or phone connects to a <span class="highlight" title="A group of devices that share data.">computer network</span>.
-      Data travels along a <span class="highlight" title="The route that data takes from sender to receiver.">path</span> 
-      using <span class="highlight" title="The rules that control communication between devices.">protocols</span> 
-      like TCP/IP. The internet is <span class="highlight" title="Able to keep working even when some parts fail.">fault tolerant</span> 
-      and designed for <span class="highlight" title="Easily growing to handle more users and traffic.">scalability</span>.
-      I also learned about <span class="highlight" title="The amount of data that can be sent per second.">bandwidth</span> 
-      and how a <span class="highlight" title="An easy-to-remember web address, like www.example.com.">URL</span> helps us 
-      access websites easily.
-    </p>
-    <p>
-      Learn more about <a class="blue-link" href="https://www.khanacademy.org/computing/ap-computer-science-principles/internet-intro" target="_blank" rel="noopener noreferrer">
-      how the internet works here</a>.
-    </p>
-    <img src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&q=80&w=1600&fit=crop" alt="Network and global connections">
-  </section>
+    <section>
+        <h2>5G & Beyond</h2>
+        <p>
+            New network technology like 5G and future 6G will make the internet much faster and reduce delays.
+            This means we’ll be able to do things like stream videos instantly, use virtual reality more smoothly, and connect more devices at the same time.
+            It will also help bring the internet to rural areas that don’t have good service yet.
+            Read more here: <a href="https://www.tlciscreative.com/5g-and-beyond-how-6g-networks-will-shape-the-future-of-connectivity/" target="_blank">5G and Beyond Article</a>
+        </p>
+        <img src="https://media.licdn.com/dms/image/v2/D5612AQH48mFB-7AkJA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1702567765462?e=2147483647&v=beta&t=nPMosV85b3SQb_WuW2SQKJXQkg9QsqGzCdS-p_b6BMc" alt="5G network tower">
+    </section>
 
-  <section>
-    <h2>How the Internet Works</h2>
-    <iframe src="https://www.youtube.com/embed/7_LPdttKXPc" allowfullscreen title="How the Internet Works"></iframe>
-  </section>
-
-  <section>
-    <h2>5G &amp; Beyond: How Networks Are Changing Internet Speed &amp; Access</h2>
-    <p>
-      The article
-      <a class="blue-link"
-         href="https://www.tlciscreative.com/5g-and-beyond-how-6g-networks-will-shape-the-future-of-connectivity/"
-         target="_blank" rel="noopener noreferrer">
-      “5G and Beyond: How 6G Networks Will Shape the Future of Connectivity”</a>
-      explains how new network technologies like 5G — and the future 6G — are making the internet faster, 
-      more reliable, and able to connect way more devices at the same time. This means less lag when streaming 
-      or gaming, better quality for video calls, and more people in remote areas getting access to the internet. 
-      These upgrades will make everyday online activities feel smoother and open the door for new innovations 
-      in business, education, and entertainment.
-    </p>
-
-    <div style="text-align:center; margin-top:1rem;">
-      <img src="https://media.licdn.com/dms/image/v2/D5612AQH48mFB-7AkJA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1702567765462?e=2147483647&v=beta&t=nPMosV85b3SQb_WuW2SQKJXQkg9QsqGzCdS-p_b6BMc"
-          alt="5G / network image"
-          style="border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.08); max-width:80%; display:inline-block;">
-    </div>
-  </section>
-
-  <footer>
-    <p>
-      Connect with me on
-      <a class="blue-link" href="https://github.com/" target="_blank" rel="noopener noreferrer" style="color:#1e6bb8 !important;">
-        GitHub
-      </a>
-    </p>
-  </footer>
+    <section>
+        <h2>How the Internet Works</h2>
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/zN8YNNHcaZc" title="How the Internet Works" frameborder="0" allowfullscreen></iframe>
+    </section>
 
 </body>
 </html>
